@@ -1,0 +1,20 @@
+plugins {
+    id 'java'
+}
+
+group 'com.robertjap'
+version '1.0-SNAPSHOT'
+
+def testNGVersion = '7.3.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile "org.testng:testng:${testNGVersion}"
+}
+
+test {
+    useTestNG()
+}
