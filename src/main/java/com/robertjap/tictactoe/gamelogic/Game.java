@@ -38,7 +38,7 @@ public final class Game {
     }
 
     /**
-     * Get the current player
+     * Get the current player.
      * @return the current player
      */
     public Player getCurrentPlayer() {

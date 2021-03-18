@@ -65,7 +65,7 @@ public final class ConsoleUI implements UserInterface {
             int col = scanner.nextInt();
 
             while (row < 1 || boardData.size() < row || col < 1 || boardData.size() < col) {
-                System.out.print("\n\nInvalid row and/or column\n\nTry again: ");
+                System.out.print("\nInvalid row and/or column\n\nTry again: ");
 
                 row = scanner.nextInt();
                 col = scanner.nextInt();
