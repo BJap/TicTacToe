@@ -91,7 +91,7 @@ public final class Board {
     /**
      * Determine if there is a winner and whom if there is.
      * @param square the square from which to check wins go through
-     * @return the winner ('X' or 'O') or 'NONE'
+     * @return the winner ('X' or 'O') or null if none
      */
     public Player hasWinner(Point square) {
         // Validate input
